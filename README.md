@@ -1,7 +1,9 @@
 WP Lazy Load
 =====================
 
-A simple lazy load solution for pages and posts
+Requires WP 4.4+
+
+A simple lazy load solution for pages and posts.
 
 ## Usage
 
