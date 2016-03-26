@@ -24,6 +24,10 @@ add_action('wp_enqueue_scripts', 'wp_register_lazy_load_script');
 
 function wp_filter_img_tags($content) {
 
+	if (empty($content)) {
+        return;
+    }
+
 	if (!is_singular() || is_front_page()) {
 		return $content;
 	}
