@@ -16,7 +16,7 @@ Images are the key cause of large page sizes. They are often loaded even when no
 
 ## About the plugin
 
-The plugin filters the_content on pages and posts; changing the output of the <img> tag to work with a third party script. 
+The plugin filters the_content on pages and posts; changing the output of the img tag to work with a third party script. 
 
 http://afarkas.github.io/lazysizes/
 
